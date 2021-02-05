@@ -1,0 +1,1 @@
+sudo modprobe apex trip_point0_temp=60000 trip_point1_temp=70000 trip_point2_temp=80000
