@@ -5,8 +5,8 @@ from pathlib import Path
 os.chdir(
     "/home/css-wu/CloudStation/Data/Wildtrack_dataset_full/Wildtrack_dataset/Image_subsets/"
 )
-img_png = Image.open("C1/00000000.png").convert("RGB")
-img_png.save("JPG/00000000.jpg", "jpeg")
+# img_png = Image.open("C1/00000000.png").convert("RGB")
+# img_png.save("JPG/00000000.jpg", "jpeg")
 
 pre = "JPG/"
 ch = "C"
