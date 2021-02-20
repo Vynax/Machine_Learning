@@ -1,9 +1,0 @@
-__pycache__
-.eggs
-.vscode
-build
-checkpoints
-dist
-log
-venv
-yolov4.egg-info
