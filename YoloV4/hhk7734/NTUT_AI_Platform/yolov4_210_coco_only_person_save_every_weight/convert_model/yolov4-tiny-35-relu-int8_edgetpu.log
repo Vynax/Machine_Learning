@@ -1,0 +1,21 @@
+Edge TPU Compiler version 15.0.340273435
+Input: convert_model/yolov4-tiny-35-relu-int8.tflite
+Output: convert_model/yolov4-tiny-35-relu-int8_edgetpu.tflite
+
+Operator                       Count      Status
+
+ADD                            6          Mapped to Edge TPU
+SPLIT                          7          Mapped to Edge TPU
+PAD                            2          Mapped to Edge TPU
+LOGISTIC                       2          Mapped to Edge TPU
+SPLIT_V                        12         Operation not supported
+RESIZE_BILINEAR                1          Operation version not supported
+MUL                            18         Mapped to Edge TPU
+CONV_2D                        21         Mapped to Edge TPU
+EXP                            6          Operation is working on an unsupported data type
+MAX_POOL_2D                    3          Mapped to Edge TPU
+CONCATENATION                  9          Mapped to Edge TPU
+SUB                            6          Mapped to Edge TPU
+DEQUANTIZE                     6          Operation is working on an unsupported data type
+QUANTIZE                       27         Mapped to Edge TPU
+QUANTIZE                       6          Operation is otherwise supported, but not mapped due to some unspecified limitation
